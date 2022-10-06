@@ -1,0 +1,111 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height:100%;
+    /* background-color: red; */
+}
+#left{
+    position: relative;
+    height: 100%;
+    width: 40%;
+    /* background: yellow; */
+}
+#right{
+    height: 100%;
+    width: 60%;
+    background-color: bisque;
+}
+#right-bottom{
+height: 50%;
+width: 100%;
+background-image: url(https://images.unsplash.com/photo-1512428813834-c702c7702b78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&autohttps://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60=format&fit=crop&w=387&q=80);
+background-size: cover;
+background-position: center;
+}
+#right-top{
+    height: 50%;
+    width: 100%;
+background-image: url(https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b3JhbmdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position:right;
+    background-size:calc(70%);
+    background-repeat: no-repeat;
+}
+#rtop-right
+{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=474&q=80);
+    background-size: cover;
+    background-position: center;
+    
+}
+#rtop-left
+{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(215, 86, 12);
+}
+#lnavr{
+    display: flex;
+    justify-content: center;
+   
+}
+#left #text-center
+{
+    position: absolute;
+    top: 40%; 
+    left: 20%;
+    z-index: 100;
+}
+#text-center h1
+{
+    font-size: 90px;
+    font-weight: 900;
+
+}
+#text-center p{
+    font-size: 15px;
+    font-weight: 500;
+    opacity: 0.6;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#text-center a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom:5px ;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+#lnav i{
+    color: royalblue;
+}
+#lnavr a
+{
+    text-decoration: none; 
+    margin-right: 20px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400px;
+}
+#lnav{
+    display: flex;
+    width: 100%;
+    padding: 20px 30px;
+    justify-content: space-between;
+} 
